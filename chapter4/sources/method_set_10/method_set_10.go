@@ -1,4 +1,5 @@
 package main
+import utils "mastergo/chapter4/sources/method_set_utils"
 
 type T1 struct{}
 
@@ -43,15 +44,15 @@ func main() {
 
 	var t1 T1
 	var pt1 *T1
-	DumpMethodSet(&t1)
-	DumpMethodSet(&pt1)
+	utils.DumpMethodSet(&t1)
+	utils.DumpMethodSet(&pt1)
 
 	var t2 T2
 	var pt2 *T2
-	DumpMethodSet(&t2)
-	DumpMethodSet(&pt2)
+	utils.DumpMethodSet(&t2)
+	utils.DumpMethodSet(&pt2)
 
-	DumpMethodSet(&t)
-	DumpMethodSet(&pt)
+	utils.DumpMethodSet(&t)
+	utils.DumpMethodSet(&pt)
 
 }

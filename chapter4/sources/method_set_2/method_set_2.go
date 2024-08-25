@@ -1,5 +1,5 @@
 package main
-
+import utils "mastergo/chapter4/sources/method_set_utils"
 type Interface interface {
 	M1()
 	M2()
@@ -13,7 +13,7 @@ func (t *T) M2() {}
 func main() {
 	var t T
 	var pt *T
-	DumpMethodSet(&t)
-	DumpMethodSet(&pt)
-	DumpMethodSet((*Interface)(nil))
+	utils.DumpMethodSet(&t)
+	utils.DumpMethodSet(&pt)
+	utils.DumpMethodSet((*Interface)(nil))
 }

@@ -1,4 +1,4 @@
-package main
+package method_set_utils
 
 import (
 	"fmt"

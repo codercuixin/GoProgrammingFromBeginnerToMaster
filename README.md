@@ -1,3 +1,8 @@
+# how to run in go 1.23
+cd to root of projetct, run 
+```
+go mod init mastergo
+```
 # GoProgrammingFromBeginnerToMaster
 [《Go语言精进之路》1、2册书籍](https://item.jd.com/13694000.html)配套源代码。
 

@@ -1,5 +1,5 @@
 package main
-
+import utils "mastergo/chapter4/sources/method_set_utils"
 type Interface1 interface {
 	M1()
 }
@@ -19,6 +19,8 @@ type Interface4 interface {
 	M2()
 }
 
+
 func main() {
-	DumpMethodSet((*Interface3)(nil))
+	utils.DumpMethodSet((*Interface3)(nil))
+	utils.DumpMethodSet((*Interface4)(nil))
 }

@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	_ "github.com/bigwhite/package-init-order/pkg1"
-	_ "github.com/bigwhite/package-init-order/pkg3"
+	_ "mastergo/chapter4/sources/package-init-order/pkg1"
+	_ "mastergo/chapter4/sources/package-init-order/pkg3"
 )
 
 var (

@@ -3,7 +3,7 @@ package pkg1
 import (
 	"fmt"
 
-	_ "github.com/bigwhite/package-init-order/pkg2"
+	_ "mastergo/chapter4/sources/package-init-order/pkg2"
 )
 
 var (

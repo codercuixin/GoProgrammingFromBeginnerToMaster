@@ -19,7 +19,7 @@ func foo() {
 	var sl1 []int
 
 	defer bar()
-	defer append(sl, 11)
+
 	defer cap(sl)
 	defer close(c)
 	defer complex(2, -2)
